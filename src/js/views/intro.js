@@ -1,7 +1,7 @@
 import { html } from "../lib.js";
 
 const introTemplate = (onStart) => html`
-  <section class="intro">
+  <section class="screen intro">
     <h1>How it all staarted</h1>
     <p>
       Lorem ipsum dolor sit amet consecteturd? Magnam reprehenderit, officiis ab

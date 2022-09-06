@@ -3,16 +3,17 @@ body {
     overflow: hidden;
 }
 
-.intro {
-    background-color: aqua;
+.screen {
     width: 100vw;
     height: 100vh;
     padding-top: 20px;
 }
 
+.intro {
+    background-color: aqua;
+    
+}
+
 .level1 {
     background-color: gray;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 20px;
 }
