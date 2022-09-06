@@ -9,3 +9,10 @@ body {
     height: 100vh;
     padding-top: 20px;
 }
+
+.level1 {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+}
