@@ -1,0 +1,24 @@
+{
+  "name": "square_wars",
+  "version": "1.0.0",
+  "description": "My first project. Inspired by a workshop @SoftUni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypetroff/square_wars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ypetroff/square_wars/issues"
+  },
+  "homepage": "https://github.com/ypetroff/square_wars#readme",
+  "dependencies": {
+    "lit-html": "^2.3.1",
+    "page": "^1.11.6"
+  }
+}
