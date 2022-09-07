@@ -1,17 +1,44 @@
 body {
     margin: 0;
     overflow: hidden;
+    font-family: Consolas;
 }
 
 .screen {
     width: 100vw;
     height: 100vh;
     padding-top: 20px;
+    position: relative;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    cursor: pointer;
+    position: relative; 
+    
+}
+
+.game {
+    left: 979px;  
+    border-radius: 0px;
+    background: #ac76d0;
+    box-shadow: 12px 12px 24px #69487f,
+        -12px -12px 24px #efa4ff;
+}
+
+.survival {
+    position: relative; top: 237px; left: 777px;  
+    border-radius: 50%;
+background: #6c29d1;
+box-shadow: inset 14px 14px 16px #5c23b2,
+            inset -14px -14px 16px #7c2ff0;
 }
 
 .intro {
-    background-color: aqua;
-    
+    background-image: url(../images/background-intro-screen2.svg);
+
 }
 
 .level1 {
