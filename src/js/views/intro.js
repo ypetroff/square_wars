@@ -4,15 +4,21 @@ import { html } from "../lib.js";
 
 const introTemplate = (onStart) => html`
   <section class="screen intro">
+    <article>
     <h1>How it all started</h1>
-    <p>
+    <p class="par">
       Lorem ipsum dolor sit amet consecteturd? Magnam reprehenderit, officiis ab
       molestiae obcaecati odio atque iusto hic maiores, voluptates deleniti ea
       dolorum, recusandae suscipit ad laudantium dolore?
     </p>
-    <p>
-      <h2>Instructions</h2>
+    </article>
+    <article>
+    <h2>Instructions</h2>
+    <p class="par">
+      Lorem ipsum dolor sit amet consecteturd? Magnam reprehenderit, officiis ab molestiae obcaecati odio atque iusto hic maiores, voluptates deleniti ea dolorum, recusandae suscipit ad laudantium dolore?
     </p>
+    </article>
+    
     <button class="button game" @click=${onStart}>Start Game</button>
     <button class="button survival">Survival Mod</button>
   </section>

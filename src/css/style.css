@@ -21,7 +21,8 @@ body {
 }
 
 .game {
-    left: 979px;  
+    left: 979px;
+    top: -200px; 
     border-radius: 0px;
     background: #ac76d0;
     box-shadow: 12px 12px 24px #69487f,
@@ -29,16 +30,19 @@ body {
 }
 
 .survival {
-    position: relative; top: 237px; left: 777px;  
+    position: relative; top: 30px; left: 777px;  
     border-radius: 50%;
-background: #6c29d1;
-box-shadow: inset 14px 14px 16px #5c23b2,
-            inset -14px -14px 16px #7c2ff0;
+    background: #6c29d1;
+    box-shadow: inset 5px 5px 9px #2b1054,
+                inset -5px -5px 9px #ad42ff;
 }
 
 .intro {
     background-image: url(../images/background-intro-screen2.svg);
+}
 
+.par {
+    width: 60%;
 }
 
 .level1 {
