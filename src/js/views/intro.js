@@ -1,5 +1,7 @@
 import { html } from "../lib.js";
 
+//TODO: add survival mod
+
 const introTemplate = (onStart) => html`
   <section class="screen intro">
     <h1>How it all started</h1>
