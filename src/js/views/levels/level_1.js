@@ -1,5 +1,5 @@
-import { html } from "../lib.js";
-import { gameLoop } from "../engine.js";
+import { html } from "../../lib.js";
+import { gameLoop } from "../../engine.js";
 
 const level_1Template = () => html`
   <section class="screen level1">
