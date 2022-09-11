@@ -17,7 +17,11 @@ body {
     margin: auto;
     cursor: pointer;
     position: relative; 
-    
+}
+
+.button:hover {
+    color: azure;
+    background-color: darkblue;
 }
 
 .game {
