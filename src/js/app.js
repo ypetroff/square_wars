@@ -1,6 +1,6 @@
 import { page, render } from "./lib.js";
 import { intro } from "./views/intro.js";
-import { level_1 } from "./views/level_1.js";
+import { level_1 } from "./views/levels/level_1.js";
 
 
 const game = document.querySelector(".game");

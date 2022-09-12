@@ -1,8 +1,11 @@
+/*General*/
 body {
     margin: 0;
     overflow: hidden;
     font-family: Consolas;
 }
+
+/*Views and attributes*/
 
 .screen {
     width: 100vw;
@@ -42,7 +45,7 @@ body {
 }
 
 .intro {
-    background-image: url(../images/background-intro-screen2.svg);
+    background-image: url("../images/background-intro-screen2.svg");
 }
 
 .par {
@@ -51,4 +54,15 @@ body {
 
 .level1 {
     background-color: gray;
+}
+
+/*Entities*/
+
+.hero {
+    position: absolute;
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    width: 110px;
+    height: 100px;
+
 }
